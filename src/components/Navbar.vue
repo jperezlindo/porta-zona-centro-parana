@@ -49,8 +49,7 @@ const links = [
     { label: 'Inicio', to: '/' },
     { label: 'Institución', to: '/institucion' },
     { label: 'Servicios', to: '/servicios' },
-    { label: 'Noticias', to: '/noticias' },
-    { label: 'Contacto', to: '/contacto' }
+    { label: 'Noticias', to: '/noticias' }
 ]
 </script>
 

@@ -5,8 +5,8 @@
       <Card 
         v-for="(item, index) in response"
         :key="index"
-        :titulo="item.titulo"
-        :descripcion="item.descripcion"
+        :titulo="item?.titulo"
+        :descripcion="item?.descripcion"
       />
     </div>
   </section>
@@ -23,6 +23,13 @@
     {
       titulo: 'Misión y Visión',
       descripcion: 'Promover un sistema de salud accesible, inclusivo y humano, con enfoque preventivo y comunitario en el centro de la provincia.'
+    },
+    {
+      titulo:'Personal',
+      descripcion: ` - Director: Bioing. Araujo Hugo.
+        - A.P.S: Dr. Perez,
+        - Inumnizaciones: Lic. Fran Maria
+      `
     }
   ]
 </script>
